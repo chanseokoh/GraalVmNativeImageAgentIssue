@@ -1,0 +1,14 @@
+--- a/reflect-config.json	2020-11-18 15:49:44.605510971 -0500
++++ b/reflect-config.json	2020-11-18 15:39:38.432507858 -0500
+@@ -3,7 +3,10 @@
+   "name":"com.example.JacksonIssueDemo$JsonTemplate",
+   "allDeclaredFields":true,
+   "allDeclaredMethods":true,
+-  "allDeclaredConstructors":true
++  "allDeclaredConstructors":true,
++  "fields":[
++    {"name":"finalValue", "allowWrite": true}
++  ]
+ },
+ {
+   "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
